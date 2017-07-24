@@ -12,8 +12,8 @@
         android:layout_width="576dp"
         android:layout_height="295dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp">
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
 
         <LinearLayout
             android:id="@+id/LL_lbl_ttl_Tm"
@@ -106,75 +106,97 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n1"
+                style="@style/AppTheme"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_1" />
+                android:checked="false"
+                android:textOn="@string/number_1"
+                android:textOff="@string/number_1"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_2" />
+                android:textOn="@string/number_2"
+                android:textOff="@string/number_2"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_3" />
+                android:textOn="@string/number_3"
+                android:textOff="@string/number_3"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_4" />
+                android:textOn="@string/number_4"
+                android:textOff="@string/number_4"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_5" />
+                android:textOn="@string/number_5"
+                android:textOff="@string/number_5"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_6" />
+                android:textOn="@string/number_6"
+                android:textOff="@string/number_6"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_7" />
+                android:textOn="@string/number_7"
+                android:textOff="@string/number_7"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_8" />
+                android:textOn="@string/number_8"
+                android:textOff="@string/number_8"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n9"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_9" />
+                android:textOn="@string/number_9"
+                android:textOff="@string/number_9"
+                android:background="@drawable/toggle_selector"/>
 
-            <Button
+            <ToggleButton
                 android:id="@+id/btn_n10"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/number_10" />
+                android:textOn="@string/number_10"
+                android:textOff="@string/number_10"
+                android:background="@drawable/toggle_selector"/>
         </LinearLayout>
 
     </LinearLayout>
